@@ -6,7 +6,7 @@ const HomePage = () => {
 	return (
 		<div className={s.wrapper}>
 			<div>
-				<a href="https://www.ssd.uzh/" target="_blank" rel="noreferrer">
+				<a href="https://www.ssd.uz/" target="_blank" rel="noreferrer">
 					<img src={logo} className={s.logo} alt="SSD logo" />
 				</a>
 			</div>
