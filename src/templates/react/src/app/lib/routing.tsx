@@ -1,7 +1,6 @@
 import {createBrowserRouter, Navigate, Outlet} from "react-router-dom"
 import HomePage from "@/pages/home"
-import NotFoundPage from "@/pages/not-found"
-
+import NotFoundPage from "@/pages/not-found";
 import { AppPages } from "@/shared/constants/routes"
 import { ErrorBoundary } from "react-error-boundary";
 import {CodeErrorComponent} from "@/shared/ui/errors";
