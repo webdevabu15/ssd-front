@@ -11,7 +11,7 @@ export const CodeErrorComponent = () => {
 	}
 	return (
 		<div className={s.errorPage}>
-			<img src={image3d} alt="" />
+			<img src={image3d} alt="3d error image" />
 			<div>{t("there is an error in the code")}</div>
 			<FilledButton onClick={reload}>{t("reload_page")}</FilledButton>
 		</div>
