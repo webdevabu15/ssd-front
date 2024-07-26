@@ -1,7 +1,4 @@
 import {createBrowserRouter, Navigate, Outlet} from "react-router-dom"
-
-import ArticlePage from "@/pages/example/id"
-import ExamplePage from "@/pages/example/root"
 import HomePage from "@/pages/home"
 import NotFoundPage from "@/pages/not-found"
 
@@ -22,19 +19,6 @@ export const router = createBrowserRouter([
 			{
 				path: AppPages.RootPage,
 				element: <HomePage />,
-			},
-			{
-				path: AppPages.ExamplePage,
-				children: [
-					{
-						index: true,
-						element: <ExamplePage />,
-					},
-					{
-						path: ":id",
-						element: <ArticlePage />,
-					},
-				],
 			},
 			{
 				path: AppPages.NotFoundPage,
